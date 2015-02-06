@@ -1,0 +1,8 @@
+$(LIBS)=/usr/lib
+$(LIBS_INC)=/usr/include 
+
+cpp: main.cpp
+	g++ main.cpp -pthread -o cpp -I$(LIBS)
+clean:
+#	rm *.o 
+#	rm cpp
